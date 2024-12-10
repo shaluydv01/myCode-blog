@@ -3,6 +3,7 @@ import "./ReactPage.css";
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import { note1, reactIntro, reactPara2, reactPara3, reactPara4 } from "/src/courseContent/reactContent";
+import { reactPara5 } from "../../courseContent/ReactContent";
 
 
 const ReactPage = () => {
@@ -144,6 +145,20 @@ const ReactPage = () => {
               {inpara4_2}
             </SyntaxHighlighter>
           </div>
+        </div>
+        <div id="reactPara5">
+          <h1>{reactPara5.heading}</h1>
+          <h3><u>{reactPara5.title1}</u></h3>
+          <p>{reactPara5.para1}</p>
+          <h3><u>{reactPara5.title2}</u></h3>
+          <p>{reactPara5.para2}</p>
+          <h3><u>{reactPara5.title3}</u></h3>
+          <p>{reactPara5.para3}</p>
+          <h3><u>{reactPara5.title4}</u></h3>
+          <p>{reactPara5.para4}</p>
+          <h3><u>{reactPara5.title5}</u></h3>
+          <p>{reactPara5.para5}</p>
+          <em>{reactPara5.conclusion}</em>
         </div>
       </div>
     </>
