@@ -2,7 +2,7 @@ import React from "react";
 import "./ReactPage.css";
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-import { note1, reactIntro, reactPara2, reactPara3, reactPara4 } from "../../../courseContent/ReactPage";
+import { note1, reactIntro, reactPara2, reactPara3, reactPara4 } from "../../../courseContent/ReactPage.js";
 
 
 const ReactPage = () => {
